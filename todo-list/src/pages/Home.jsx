@@ -22,10 +22,6 @@ export default function Home() {
         todosArray[i].text = editedText;
       }
     }
-
-    // console.log(todosArray);
-    // todosArray.splice(todosArray.id, 1, { text: editedText, id: id });
-    // console.log(todosArray);
     setTodos(todosArray);
   };
 
